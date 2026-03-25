@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GDIC Logistics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">  <!-- Navbar -->  <nav class="bg-blue-900 text-white p-4 flex justify-between">
+    <h1 class="text-xl font-bold">GDIC Logistics</h1>
+    <div class="space-x-4">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#services" class="hover:underline">Services</a>
+      <a href="#tracking" class="hover:underline">Track</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+  </nav>  <!-- Hero -->  <section class="text-center py-16 bg-blue-100">
+    <h2 class="text-3xl font-bold mb-4">Fast & Reliable Logistics</h2>
+    <p class="mb-6">Ship anywhere in the world with GDIC</p>
+    <button class="bg-blue-900 text-white px-6 py-2 rounded-xl">Get Started</button>
+  </section>  <!-- Services -->  <section id="services" class="py-12 px-6">
+    <h3 class="text-2xl font-bold text-center mb-8">Our Services</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h4 class="font-bold mb-2">Air Freight</h4>
+        <p>Fast international delivery via air cargo.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h4 class="font-bold mb-2">Sea Freight</h4>
+        <p>Affordable shipping for large cargo.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h4 class="font-bold mb-2">Door Delivery</h4>
+        <p>We deliver right to your doorstep.</p>
+      </div>
+    </div>
+  </section>  <!-- Tracking -->  <section id="tracking" class="bg-gray-100 py-12 px-6 text-center">
+    <h3 class="text-2xl font-bold mb-6">Track Your Package</h3>
+    <input id="trackingInput" type="text" placeholder="Enter Tracking ID" class="p-3 border rounded-xl w-64" />
+    <button onclick="trackPackage()" class="bg-blue-900 text-white px-4 py-2 rounded-xl ml-2">Track</button>
+    <p id="trackingResult" class="mt-4 font-semibold"></p>
+  </section>  <!-- Contact -->  <section id="contact" class="py-12 px-6 text-center">
+    <h3
