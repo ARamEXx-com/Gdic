@@ -1,0 +1,2 @@
+# Gdic
+Global diplomatic 
